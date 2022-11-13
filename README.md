@@ -37,7 +37,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution](https://your-solution-url.com)
+- [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-ovX--tnFOL)
 - [Live site](https://amparoamparo.github.io/frontendmentor-product-preview-card-component/)
 
 ## My process
