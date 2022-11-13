@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - [Solution](https://your-solution-url.com)
-- [Live site](https://your-live-site-url.com)
+- [Live site](https://amparoamparo.github.io/frontendmentor-product-preview-card-component/)
 
 ## My process
 
