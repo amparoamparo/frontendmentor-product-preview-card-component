@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Product preview card component</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/c82c7dc405.js" crossorigin="anonymous"></script>
+  <script>
+    // Get the viewport height and multiple it by 1% to get a value for a vh unit
+    let vh = window.innerHeight * 0.01;
+    // Then set the value in the --vh custom property to the root of the document
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  </script>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <div class="card-img"></div>
+      <div class="card-text">
+        <h2 role="presentation" class="category">Perfume</h2>
+        <h1 class="card-title">Gabrielle Essence Eau De Parfum</h1>
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="price">
+          <span class="sale-price">$149.99</span>
+          <span class="rrp">$169.99</span>
+        </div>
+        <button><img src="images/icon-cart.svg" alt="">Add to Cart</button>
+      </div>
+    </div>
+    <footer>
+      <span class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. Coded by <a href="https://github.com/amparoamparo"><i class="fa-solid fa-skull"></i> Amparo</a>.
+      </span>
+    </footer>
+  </main>
+
+</body>
+</html>
