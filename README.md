@@ -44,6 +44,7 @@ Users should be able to:
 
 ### Built with
 
+- Figma (used to measure things like padding, border radii, margins, etc - Note: I do not have a Pro account, thus no Figma source file. I just measured from the provided design screenshots.)
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
