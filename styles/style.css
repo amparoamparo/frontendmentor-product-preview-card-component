@@ -35,6 +35,7 @@ html:focus-within {
 /* Set core body defaults */
 body {
     min-height: 100vh;
+    min-height: -webkit-fill-available;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     font-size: 14px;
@@ -96,8 +97,6 @@ html {
 
 body {
     background-color: var(--cream);
-    min-height: 100vh;
-    min-height: -webkit-fill-available;
     margin: 0 auto;
     display: grid;
     place-items: center;
