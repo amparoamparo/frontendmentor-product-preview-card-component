@@ -91,10 +91,13 @@ select {
 
 html {
     font-family: 'Montserrat', sans-serif;
+    height: -webkit-fill-available;
 }
 
 body {
     background-color: var(--cream);
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     margin: 0 auto;
     display: grid;
     place-items: center;
